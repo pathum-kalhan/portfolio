@@ -59,4 +59,11 @@ export default {
   color: white;
 
 }
+
+@media(max-width:40rem){
+  .card{
+    box-shadow: none;
+    border-bottom: 3px solid olivedrab;
+  }
+}
 </style>

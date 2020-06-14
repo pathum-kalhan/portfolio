@@ -24,10 +24,10 @@
         Live Link
       </a>
     </div>
-    <h2 class="project__subtitle">Screenshots</h2>
+    <!-- <h2 class="project__subtitle">Screenshots</h2>
     <div class="ss">
-      <!-- <img :src="require('../assets/Screenshot (203).png')"> -->
-    </div>
+      <img :src="require('../assets/Screenshot (203).png')">
+    </div> -->
   </div>
 </template>
 

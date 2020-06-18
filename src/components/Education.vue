@@ -40,7 +40,7 @@ export default {
 
 .education__title >h2{
   font-size: 2rem;
-  color: #7e04e8;
+  /* color: #7e04e8; */
   margin:0
 }
 </style>

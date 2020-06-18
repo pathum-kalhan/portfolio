@@ -72,7 +72,7 @@ export default {
 
 .skills__title > h2 {
   font-size: 2rem;
-  color: #00c853;
+  /* color: #00c853; */
   margin: 0;
 }
 

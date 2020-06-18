@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div>
      <app-freelance></app-freelance>
     <!--<app-fun></app-fun> -->
     <app-work></app-work>
@@ -37,11 +37,7 @@ export default {
 </script>
 
 <style>
-#home{
-  background-color: #eee;
-  /* width:90%;
-  margin:auto */
-}
+
 .margin-3{
   margin-top: 3rem;
 }

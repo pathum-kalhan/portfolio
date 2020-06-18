@@ -48,7 +48,7 @@ export default {
 
 <style>
 .project {
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 .project__title {
   /* text-align: center; */

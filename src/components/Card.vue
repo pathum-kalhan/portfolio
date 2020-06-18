@@ -27,7 +27,8 @@ export default {
   box-shadow: 7px 7px greenyellow;
   margin-bottom: 1rem;
   padding: 0.5rem;
-  /* border-radius: 5px; */
+  border-left: 1px solid  greenyellow;
+  border-top: 1px solid  greenyellow
 }
 .card__title {
   /* background-color: white; */

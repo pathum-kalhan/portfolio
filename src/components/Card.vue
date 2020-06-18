@@ -64,7 +64,8 @@ export default {
 @media(max-width:40rem){
   .card{
     box-shadow: none;
-    border-bottom: 3px solid olivedrab;
+    border-bottom: 0.5rem solid royalblue;
+     border-right: 1px solid  greenyellow
   }
 }
 </style>

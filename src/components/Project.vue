@@ -17,7 +17,13 @@
     <h2 class="project__subtitle">Links</h2>
     <div class="center">
       <a :href="project.github" class="github" target="_blank" v-if="project.github">Github</a>
-      <a :href="project.liveLink" class="liveUrl" v-if="project.liveLink" target="_blank">Live Link</a>
+      <a
+      :href="project.liveLink"
+      class="liveUrl"
+      v-if="project.liveLink"
+      target="_blank">
+      Live Link
+      </a>
     </div>
   </div>
 </template>

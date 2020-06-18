@@ -1,17 +1,16 @@
 <template>
   <div class="freelance">
-    <h2 class="freelance__title">FREELANCE PROJECTS 👨‍💻</h2>
+    <h2 class="section-title">FREELANCE PROJECTS 👨‍💻</h2>
     <div class="freelance__stats">
       <div class="freelance__stat">9 Clients</div>
       <div class="freelance__stat">8 Projects</div>
     </div>
     <div class="freelance__projects">
       <template v-for="(n,i) in projects">
-      <app-card :key="i" class="freelance__project" :project="n"></app-card>
+        <app-card :key="i" class="freelance__project" :project="n"></app-card>
       </template>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -33,16 +32,8 @@ export default {
 </script>
 
 <style>
-.freelance__title {
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 2rem;
-  /* background-color: white; */
-}
-
 .freelance__stats {
   display: flex;
-  /* background-color: white; */
 }
 
 .freelance__stat {
@@ -56,9 +47,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
-  /* align-content: space-between; */
-  /* margin:1rem 0 */
 }
 
 .freelance__project {

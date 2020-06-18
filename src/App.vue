@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -14,9 +14,7 @@ export default {
     'app-header': Header,
   },
   data() {
-    return {
-
-    };
+    return {};
   },
 };
 </script>
@@ -32,5 +30,9 @@ body {
   padding: 1rem 0;
   font-size: 2rem;
   /* background-color: white; */
+}
+.section-title {
+  text-align: center;
+  font-size: 2rem;
 }
 </style>

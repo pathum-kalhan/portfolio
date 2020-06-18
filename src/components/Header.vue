@@ -7,9 +7,9 @@
 
 <style>
 .header__title {
-  display: flex;
   background-color: #3498db;
   color: white;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }

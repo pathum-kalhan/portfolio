@@ -16,18 +16,9 @@
     </div>
     <h2 class="project__subtitle">Links</h2>
     <div class="center">
-      <a :href="project.github" class="github" target="_blank" v-if="project.github">
-        Github
-      </a>
-
-      <a :href="project.liveLink" class="liveUrl" v-if="project.liveLink" target="_blank">
-        Live Link
-      </a>
+      <a :href="project.github" class="github" target="_blank" v-if="project.github">Github</a>
+      <a :href="project.liveLink" class="liveUrl" v-if="project.liveLink" target="_blank">Live Link</a>
     </div>
-    <!-- <h2 class="project__subtitle">Screenshots</h2>
-    <div class="ss">
-      <img :src="require('../assets/Screenshot (203).png')">
-    </div> -->
   </div>
 </template>
 
@@ -48,13 +39,14 @@ export default {
 
 <style>
 .project {
-  /* background-color: #ccc; */
+  padding-bottom: 6rem;
 }
 .project__title {
   /* text-align: center; */
   display: flex;
   justify-content: center;
   flex: 1;
+  text-align: center;
   /* background:chartreuse */
 }
 
@@ -105,20 +97,13 @@ export default {
   padding: 0.5rem 1rem;
 }
 
-.ss {
-  background: url("../assets/Screenshot (203).png");
-  height: 25rem;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 @media (max-width: 40rem) {
   .project__header {
     flex-direction: column;
   }
   .back-button {
-    /* align-self: left; */
+    margin-left: 0;
+    margin: 1rem 0;
     flex: 1;
   }
 }

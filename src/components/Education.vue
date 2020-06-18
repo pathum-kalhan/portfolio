@@ -13,19 +13,6 @@
 
 </template>
 
-<script>
-// @ is an alias to /src
-
-
-export default {
-  data() {
-    return {
-      title: 'Education',
-    };
-  },
-
-};
-</script>
 <style>
 .education {
   display: flex;

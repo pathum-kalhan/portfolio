@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <h2 class="sub-title">{{'Personal Profile'|capitalize}} 😁🤪😁</h2>
+    <h2 class="sub-title">{{'Personal Profile'|capitalize}} 👽</h2>
     <p class="profile__text">I am a full stack JavaScript developer based on Homagama,
        Sri Lanka with 2+ years of industry
 experience. My main concern is cutting edge technologies and ‘engineering’ rather than building

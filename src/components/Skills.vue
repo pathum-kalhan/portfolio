@@ -1,43 +1,103 @@
 <template>
   <div class="skills">
-     <div class="skills__title">
-      <h2>{{"Skills" | capitalize}} ❤️❤️❤️</h2>
-    </div>
-    <div class="skills__list">
-      <div class="skills__category">
-        <p>HTML <span class="orange">★★★★</span>★</p>
-        <p>CSS <span class="orange">★★★</span>★★</p>
-        <p>JavaScript <span class="orange">★★★★</span>★</p>
+    <h1 class="skills__title">SKILLS ❤️❤️❤️</h1>
+    <div class="skills__items">
+      <div class="category">
+        <div class="category__item">
+          HTML
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          CSS
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          JavaScript
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
       </div>
-      <div class="skills__category">
-        <p>Vue.js <span class="orange">★★★★</span>★</p>
-        <p>React <span class="orange">★★</span>★★★</p>
+      <div class="category">
+        <div class="category__item">
+          VueJS
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          ReactJS
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
       </div>
-      <div class="skills__category">
-        <p>Node.js <span class="orange">★★★★</span>★</p>
-        <p>Express.js <span class="orange">★★★★</span>★</p>
-        <p>TypeScript <span class="orange">★★</span>★★★</p>
-        <p>GraphQL <span class="orange">★★</span>★★★</p>
+      <div class="category">
+        <div class="category__item">
+          NodeJS
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          ExpressJS
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          GraphQL
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
       </div>
-      <div class="skills__category">
-        <p>RDBMS / MySQL <span class="orange">★★★★</span>★</p>
-        <p>NoSQL / MongoDB <span class="orange">★★★</span>★★</p>
-      </div>
-      <div class="skills__category">
-        <p>Basic web apps hosting. DigitalOcean, AWS EC-2</p>
-        <p>Static sites hosting. Firebase, Netlify</p>
+      <div class="category">
+        <div class="category__item">
+          RDBMS / MySQL
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="category__item">
+          NoSQL / MongoDB
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
 // @ is an alias to /src
 
-
 export default {
-
   filters: {
     capitalize(value) {
       if (!value) return '';
@@ -49,47 +109,47 @@ export default {
 
 <style>
 .skills {
+  background-color: #eee;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.skills__list {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  width: 95%;
+  margin:auto
 }
 
-.skills__category {
-  flex-basis: 15rem;
+.skills__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch
+  /* justify-content: space-between */
 }
 
-.skills__title {
-  background-color: white;
-  padding: 0 1rem;
-  align-self: center;
+.skills__title{
+   padding: 0 1rem;
 }
 
-.skills__title > h2 {
-  font-size: 2rem;
-  /* color: #00c853; */
-  margin: 0;
+.category {
+  flex-basis: 20rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1
 }
 
-.orange {
+.category__item {
+  border: 1px solid green;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background: white;
+}
+
+.checked {
   color: orange;
 }
 
-/* .skills__category >p{
-  background-color: white;
-} */
-
-@media (max-width: 40rem) {
-  .skills__list {
-    flex-direction: column;
-  }
-  .skills__category > p{
-    padding: 1rem;
+@media(max-width: 40rem){
+  .skills__items{
+    flex-direction: column
   }
 }
 </style>

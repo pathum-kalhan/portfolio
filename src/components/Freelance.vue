@@ -1,6 +1,6 @@
 <template>
   <div class="freelance">
-    <h2 class="freelance__title">Freelance Projects 👨‍💻</h2>
+    <h2 class="freelance__title">FREELANCE PROJECTS 👨‍💻</h2>
     <div class="freelance__stats">
       <div class="freelance__stat">9 Clients</div>
       <div class="freelance__stat">8 Projects</div>

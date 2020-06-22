@@ -30,7 +30,7 @@
       </div>
       <div class="category">
         <div class="category__item">
-          VueJS
+          Vue.js
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -38,7 +38,7 @@
           <span class="fa fa-star"></span>
         </div>
         <div class="category__item">
-          ReactJS
+          React
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star"></span>
@@ -48,7 +48,7 @@
       </div>
       <div class="category">
         <div class="category__item">
-          NodeJS
+          Node.js
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
@@ -56,7 +56,7 @@
           <span class="fa fa-star"></span>
         </div>
         <div class="category__item">
-          ExpressJS
+          Express.js
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
